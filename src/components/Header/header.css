@@ -1,0 +1,28 @@
+
+.container{
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    background-color: #ffb833;
+    display: flex;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+}
+
+.link{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 30px 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.link:hover{
+    color: #808080;
+    transition: all 0.5s;
+    opacity: 0.9;
+    text-shadow: none;
+}
